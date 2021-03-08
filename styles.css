@@ -3,6 +3,23 @@ body{
   padding: 0;
 }
 
+.fadeIn {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 /* NAVBAR */
 .navbar{
   padding-top: 1rem;
@@ -64,7 +81,37 @@ body{
 }
 
 .introduction-content p{
-  font-size: 2.5rem;
   color: white;
   font-size: 1.2rem;
+}
+
+/* EDUCATION */
+.education{
+  margin: 50px auto 45px auto;
+  padding: 20px;
+}
+
+.education-content h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.education-content img{
+  display: block;
+  height: 610px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.education-content p{
+  line-height: 2;
+  font-size: 1.035rem;
+  text-align: justify;
+  margin-right: 30px;
 }
