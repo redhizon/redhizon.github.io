@@ -182,6 +182,35 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* HOBBIES AND CHILDHOOD DREAM */
+.hobbies-childhoodDream{
+  margin: 50px auto 45px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.hobbies-childhoodDream-content h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #000;
+  text-align: center;
+}
+
+.workout-icon{
+  font-size: 10rem;
+  margin-top: 34px;
+  margin-bottom: 15px;
+}
+
+.hobbies-childhoodDream-content p{
+  margin: 20px 15% 20px 15%;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+
 /* FOOTER */
 footer {
   position: static
