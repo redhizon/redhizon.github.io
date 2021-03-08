@@ -89,6 +89,7 @@ body{
 .education{
   margin: 50px auto 45px auto;
   padding: 20px;
+  background-color: white;
 }
 
 .education-content h2{
@@ -107,6 +108,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .education-content p{
@@ -114,4 +116,33 @@ body{
   font-size: 1.035rem;
   text-align: justify;
   margin-right: 30px;
+}
+
+/* PROGRAMMING LANGUAGE */
+.programmingLanguage{
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #000;
+  color: white;
+}
+
+.programmingLanguage h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffcb91;
+}
+
+.laptop-icon{
+  font-size: 10rem;
+  margin-top: 34px;
+  margin-bottom: 15px;
+}
+
+.programmingLanguage-content p{
+  margin: 20px 15% 20px 15%;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  text-align: justify;
 }
